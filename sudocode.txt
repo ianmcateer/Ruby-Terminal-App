@@ -1,0 +1,19 @@
+1. Run App
+2. User will be shown the welcome screen
+3. Prompts user to begin creating a shopping list and let user enter a name for the list
+4. Call method that will create this shopping list
+5. This method will create a new hash with two elements
+      first element contains the name of the list eg shopping list
+      second element called "items" and will contain an empty Array using Array.new
+      this array will store the items the user enters
+6. Once shopping list hash is created prompt user to enter first item
+7. create a variable == "yes" 
+8. begin a loop that will allow user to keep entering items into shopping list
+9. while the variable == "yes" the user will be prompted for another item. 
+10. As user keeps adding items inside this loop store or push the input into the add method 
+11. if user enters "no" will break out of the loop because variable no longer == "yes"
+12. once loop broken out of call method to print the shopping list
+12. print shopping list into a table using ruby gem - input items into the rows
+
+
+  
